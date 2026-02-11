@@ -10,7 +10,7 @@ body {
 header {
     background-color: cadetblue;
     color: white;
-    height: 10vh;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ header {
 
 nav {
     background-color: lightslategray;
-    height: 10vh;
+    height: 80px;
     padding: 16px;
     display: flex;
     justify-content: center;
@@ -33,6 +33,7 @@ nav > a {
     border-radius: 20px;
     color: black !important;
 }
+
 nav > a:hover {
     background-color: lightskyblue;
     cursor: pointer;
@@ -40,7 +41,7 @@ nav > a:hover {
 
 footer {
     background-color: lightskyblue;
-    height: 10vh;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,4 +79,18 @@ aside {
     display: flex;
     flex-direction: column;
     flex: 1;
+}
+
+li > a {
+    text-decoration: none;
+    color: black !important;
+}
+
+li > a:hover {
+    color: darkblue !important;
+    cursor: pointer;
+}
+
+p, ul, ol {
+    margin: 8px 0;
 }
